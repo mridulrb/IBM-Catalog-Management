@@ -1,0 +1,391 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:0839c8e6209310c6c1402bce0adae4f215ce429a66b2c1960313fb0ff2f71ce6
+  image: asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 1.2.0-release-v1.1.10-228
+- caseVersions:
+  - 2.0.0
+  - 2.0.1
+  category: catalog
+  digest: sha256:0839c8e6209310c6c1402bce0adae4f215ce429a66b2c1960313fb0ff2f71ce6
+  image: ibmcom/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 1.2.0-release-v1.1.10-228
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:2b4dd7a4c958a99848ff32916b578b2187b1184ee6a40643a484039c5dc822de
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 2.1.0-release-v1.1.11-375
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:b125e3f8c6901e091803217a938b0b61eed7058deb442bb1a2e6eaa5f0eb0ee8
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-b125e3f8c
+- caseVersions:
+  - 2.1.1
+  category: catalog
+  digest: sha256:5469ddec67ac2451336ea7a48bbc5f068e8f9a30e3e87e96bf495f1dbe3697a9
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 2.1.0-release-v1.1.11-419
+- caseVersions:
+  - 2.1.2
+  category: catalog
+  digest: sha256:3f4ed4e68d8f85d77dba4cc0957c1b84167ac9d2784b3fe1d5600e7a58c928f6
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 2.1.0-release-v1.1.11-450
+- caseVersions:
+  - 2.2.1
+  category: catalog
+  digest: sha256:ad75d920a6d85616e95e9a481fe66ecfc002dd265b8885db877a08a0028a755f
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-ad75d920a
+- caseVersions:
+  - 2.4.0
+  category: catalog
+  digest: sha256:3479cfb9b25dbb59a93aca8177cb86cd26447cf1bdb805d41b3b5f591be4120b
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 2.4.0-release-v1.1.13-184
+- caseVersions:
+  - 2.5.0
+  category: catalog
+  digest: sha256:11288c267ae84efee3f6fcff0a8cf9911ee85d9764cdc2fe8bf982a01fefd01a
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-dd69b2ff5-linux.amd64
+- caseVersions:
+  - 2.5.0
+  category: catalog
+  digest: sha256:dd69b2ff57c8e0a94e182de189d862016973af79b2478a829afc70bf1b16b8df
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-dd69b2ff5
+- caseVersions:
+  - 2.5.1
+  category: catalog
+  digest: sha256:a6bf6bf6bba16e0ac84e7aa974e2789c329bc33e0c32763ae7ff937b584bf137
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-9216a7e07-linux.amd64
+- caseVersions:
+  - 2.5.1
+  category: catalog
+  digest: sha256:9216a7e077e287e3bf2f60992d12f289adfe5415daff7a8f36be9e2119dbdd43
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-9216a7e07
+- caseVersions:
+  - 2.5.2
+  category: catalog
+  digest: sha256:f17dfa4488d5f632429b4f14991360de082ea5fb8ff0f23863aa31982ff072f4
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-ae9b49483-linux.amd64
+- caseVersions:
+  - 2.5.2
+  category: catalog
+  digest: sha256:ae9b49483012eab2f2e2a5353556c685bb1ccb842c4f0bdce1731e54c95b46a4
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-ae9b49483
+- caseVersions:
+  - 2.7.0
+  category: catalog
+  digest: sha256:f4a74ebe04ca7087ce1b4c41f2ea12ad3b67f283e893918b1f86d3764781a736
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-b11620b18-linux.amd64
+- caseVersions:
+  - 2.7.0
+  category: catalog
+  digest: sha256:b11620b1878f796ccd38f1ed2e8791d838ef98cd41af38e6d61cc5f81d8dbf74
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-b11620b18
+- caseVersions:
+  - 2.6.0
+  category: catalog
+  digest: sha256:8f27c530216a802e39106faf60e1dfa7bf70797efcb03dba8a5407e883962806
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 2.6.0-release-v1.1.14-241
+- caseVersions:
+  - 2.7.1
+  category: catalog
+  digest: sha256:370f367b078a258d52691122a14119bee035295bcb12ad6bf461715b595ecd75
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-81bd23d4b-linux.amd64
+- caseVersions:
+  - 2.7.1
+  category: catalog
+  digest: sha256:81bd23d4b86e3a48285981353deff1a4d03ab9fadb5d4fba06fedb3702c3e7e2
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-81bd23d4b
+- caseVersions:
+  - 2.7.2
+  category: catalog
+  digest: sha256:d4bda06173bde390a9f4bbd696aa6de77bbff28ed3bb74dbdb12badc62301a32
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-55f241b21-linux.amd64
+- caseVersions:
+  - 2.7.2
+  category: catalog
+  digest: sha256:55f241b2168b9c948e9c54346d02ecdfb2fe60fb8d8eec7ae625308d22cd7d6c
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-55f241b21
+- caseVersions:
+  - 2.9.0
+  category: catalog
+  digest: sha256:bcab6cd326a150e764bf9d447e533d13ddf66b2caf6edbae197ecc7a89ad4b4b
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc1-20220913.1524-3a6627886-linux.amd64
+- caseVersions:
+  - 2.9.0
+  category: catalog
+  digest: sha256:3a6627886af8b1291bb0c61b2c7d1f584b16f12e22e0890156f64566fe23f9d3
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc1-20220913.1524-3a6627886
+- caseVersions:
+  - 2.9.1
+  category: catalog
+  digest: sha256:c6005f2ea180c827b2b3481ed03fabcfea5691d6ab4c1303af0dfeec0ea59f6d
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-9c35bfad5-linux.amd64
+- caseVersions:
+  - 2.9.1
+  category: catalog
+  digest: sha256:9c35bfad55bfbafb8740d8bbbeacaf91f3295ebcd0034c86b890ed28d7e7112b
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-9c35bfad5
+- caseVersions:
+  - 2.11.0
+  category: catalog
+  digest: sha256:565ff075b2597af036582b112d0f9a165b52ea21a9fd779536e119ead2632dd7
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-b3b33a389-linux.amd64
+- caseVersions:
+  - 2.11.0
+  category: catalog
+  digest: sha256:b3b33a3894b0a6e2adee14a573d8fcaa4a85c22beecf9e081b473dea09b9edb6
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-b3b33a389
+- caseVersions:
+  - 2.10.0
+  category: catalog
+  digest: sha256:f7fe5e3bb8d244a6a54f5aaa4e5004d89c71e8fb1416a5985a9516d744bad12f
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 2.10.0-release-v1.1.16-237
+- caseVersions:
+  - 2.11.1
+  category: catalog
+  digest: sha256:af6ad3052b5b7d1105facad5d4874635c09459ebd599c8dec332833f03da465d
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-56d97d3ba-linux.amd64
+- caseVersions:
+  - 2.11.1
+  category: catalog
+  digest: sha256:56d97d3bac934f414623a16269e8945f85446b26a6f68587c5dce11612ee8a13
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-56d97d3ba
+- caseVersions:
+  - 2.11.2
+  category: catalog
+  digest: sha256:0cbcab8e6621eaedb08e862c38406a7f85bffcf021f84d293690a2825eb09359
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-4c1b61aeb-linux.amd64
+- caseVersions:
+  - 2.11.2
+  category: catalog
+  digest: sha256:4c1b61aeb87b65f3c98d82c4789659c2adc50b4d9e1f4171d474c88d6bca0dd2
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-4c1b61aeb
+- caseVersions:
+  - 2.13.0
+  category: catalog
+  digest: sha256:0fadfb84a1b262dd055cde92be181f8a71c88ad48af1848395070178668375a8
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-f30c942a9-linux.amd64
+- caseVersions:
+  - 2.13.0
+  category: catalog
+  digest: sha256:f30c942a9d7731b6b3072414ebca0f72ecdd6e714f720a428bc9ac871be9af41
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-f30c942a9
+- caseVersions:
+  - 2.13.1
+  category: catalog
+  digest: sha256:571171ce32a904c5646eccac0fabbb576c3adf9a4995dc2f8d8f0375c721280f
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-d069bbe48-linux.amd64
+- caseVersions:
+  - 2.13.1
+  category: catalog
+  digest: sha256:d069bbe4803bfae81c7d930e989e2f666f9ad40848bfe6114433ce1bba1b3f9c
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-d069bbe48
+- caseVersions:
+  - 2.13.2
+  category: catalog
+  digest: sha256:dc03571f6f3258101f7510efb28d9919579d554f51199c3ad29723266876199c
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-68e83569c-linux.amd64
+- caseVersions:
+  - 2.13.2
+  category: catalog
+  digest: sha256:68e83569c9839fa0a8613a1247e3f13407a07713cae7ac57274534bc06c01ee7
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-68e83569c
+- caseVersions:
+  - 2.15.0
+  category: catalog
+  digest: sha256:89ff740ddb70efa3da4370404b86ef30c48d49d88576b7f365ffb5a67c0f8449
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-8a7dfb10b-linux.amd64
+- caseVersions:
+  - 2.15.0
+  category: catalog
+  digest: sha256:8a7dfb10bdf166a7336ef5fbe524bcf6b167e326c88a37f75b0225aa78f7b917
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-8a7dfb10b
+- caseVersions:
+  - 2.15.1
+  category: catalog
+  digest: sha256:20fe606288c9390b00ed827febfb36778994a5b32c80990711d46f13ce8975ab
+  image: cpopen/asm-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-21b5d76a1-linux.amd64
+- caseVersions:
+  - 2.15.1
+  category: catalog
+  digest: sha256:21b5d76a16a7f239005aeb67cd0a2688cbdeb372245fce1123c30c303c52ef28
+  image: cpopen/asm-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-21b5d76a1

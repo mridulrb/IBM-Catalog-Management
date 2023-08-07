@@ -1,0 +1,6 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-auditlogging-operator,3.25.5,sha256:f6848ac40d0fb763c0c7e028cbe9d5be80d04ab34bf641871e10017587db06b7,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/fluentd,v1.14.5-bedrock-18,sha256:5cb234a514579aa9003212fea09dde4f7918e41808e9bc7ac9fd769232c5d456,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/audit-syslog-service,1.10.15,sha256:b842e1d407b7b728f6e02d551fe929471fb013fe5820b31e45b6a0f0ccf7ffed,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/audit-policy-controller,3.15.15,sha256:86acb32efeff627761e23dda25414d87f3e1a286422d08322cdf9d91b1386ae6,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/audit-garbage-collector,1.10.15,sha256:3ff255fc5ece3e2e5bea912f15e40d2805ac851e58b6496cb20739d20baec5ff,LIST,"","","",0,CASE,"",""

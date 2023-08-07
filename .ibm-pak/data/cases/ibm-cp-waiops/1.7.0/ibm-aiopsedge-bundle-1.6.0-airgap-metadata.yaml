@@ -1,0 +1,15 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-aiopsedge-operator-catalog@sha256:e837d64eb64c17f746137425782879cfaa1e41ac3afde3c512a0d0dec508ce1a
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1;impl=fbc
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

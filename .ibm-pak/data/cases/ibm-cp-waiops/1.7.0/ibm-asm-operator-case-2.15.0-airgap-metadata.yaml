@@ -1,0 +1,15 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/asm-operator-catalog@sha256:8a7dfb10bdf166a7336ef5fbe524bcf6b167e326c88a37f75b0225aa78f7b917
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1;impl=fbc
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

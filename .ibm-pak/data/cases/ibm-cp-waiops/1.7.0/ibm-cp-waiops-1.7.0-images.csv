@@ -1,0 +1,7 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-aiops-orchestrator-bundle,v4.1.0-20230621.0047-61e8a7a87,sha256:61e8a7a8798e7e3a28e53d133a8170e38b8a0f01bcb968122e176a1d72822821,IMAGE,linux,amd64,"",0,CASE,olm-bundle,""
+icr.io,cpopen/ibm-cp-waiops-case-bundle-catalog,v4.1.0-20230621.0047-566a8e48a,sha256:566a8e48a22614ce4b7d39c38c1f63ce483630c834a0c0dd3e98e69143664e76,LIST,"","","",0,CASE,olm-catalog,""
+icr.io,cpopen/ibm-aiops-orchestrator,v4.1.0-20230621.0047-9ee851deb,sha256:9ee851deb53b1f656246f270beeaac0e329c16c3dbadcfe65393788eb0595d41,LIST,"","","",0,CASE,"",""
+cp.icr.io,cp/iaf-flink,v4.1.0-20230621.0047-81ef0b4b0,sha256:81ef0b4b01925ae31d5b9523bdb79d8e09714bb683474b69a87b1a88963495fe,LIST,"","","",0,CASE,"",""
+cp.icr.io,cp/iaf-eventprocessing-proxy,v4.1.0-20230621.0047-2b8dd0975,sha256:2b8dd0975c2e62660fe04ba0f2dff15dc78123746495f7c1e1af05bf2727a875,LIST,"","","",0,CASE,"",""
+cp.icr.io,cp/cpd/postgresql,13.9-4.11.0,sha256:fff71f04d9f2162a416488ac5589fc220ed3f6fd69fb4c405e4d80ce8dbe7633,LIST,"","","",0,CASE,"",""

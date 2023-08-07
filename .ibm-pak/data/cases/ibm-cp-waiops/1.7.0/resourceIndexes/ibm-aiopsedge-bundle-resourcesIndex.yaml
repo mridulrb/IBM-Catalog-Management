@@ -1,0 +1,310 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:00a1fa4d744c9550bca84db74e255d947a3145f03c3f1444489738fd38f64d24
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-00a1fa4d7
+- caseVersions:
+  - 1.0.2
+  category: catalog
+  digest: sha256:02814e8a9fb8fedbe1d5158864c5ae868ae301c99291e012f40762c9054717c8
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-02814e8a9
+- caseVersions:
+  - 1.1.0
+  category: catalog
+  digest: sha256:666cc5dba12abffd4c337879ffb4439c6d7c689ec5e89ee6cb9cbdee0c73c90a
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-8d9af64f2-linux.amd64
+- caseVersions:
+  - 1.1.0
+  category: catalog
+  digest: sha256:8d9af64f2499928a22f84e36d8afba61fd68ad590e815f0727cd4f62abec962d
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-8d9af64f2
+- caseVersions:
+  - 1.1.1
+  category: catalog
+  digest: sha256:dbcbc4af9bd0714f5a2cb29cbf5d248f79c1b0c1d832bf52d7bfcb9ebfef4d4a
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-d45d8807f-linux.amd64
+- caseVersions:
+  - 1.1.1
+  category: catalog
+  digest: sha256:d45d8807f05880f9bebcd0265bd3419669fbd3b7df3a1a513aa715df91efc67c
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-d45d8807f
+- caseVersions:
+  - 1.1.2
+  category: catalog
+  digest: sha256:2d34fba8af72db387c72af55bf6a2e26bca74290633497680840164b46746a5b
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-35ebdc7b6-linux.amd64
+- caseVersions:
+  - 1.1.2
+  category: catalog
+  digest: sha256:35ebdc7b6f08ba4748c9115b69b9775f9c989c370d2adc2536bb4f8fac2e5ba4
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-35ebdc7b6
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:4e139c52ed9369075c5cb75107c01ea768c765689ddd93aac6a79b0d0b3ae441
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-d9fafb078-linux.amd64
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:d9fafb078bb2bdf6c9e0e0bfa9f0243bfb018d15fdaac2cc251dfffbdbd1b03d
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-d9fafb078
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:975b3f70f3d9400409a0a8028bfe185af7e047b4f2f30b8426fa36be62c13d12
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-c5ff1caaa-linux.amd64
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:c5ff1caaa8912d92984ffb8c0f6807826d0f5d231aa57c7a77cd0c2011939ee1
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-c5ff1caaa
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:beaf325e6edb0e86d583cd489be988c6f3f483781484f95cfebcd49cc328936c
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-38d081da9-linux.amd64
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:38d081da901eb999edd33245f1a69d25b966127c096107219cc8cffaaa7a903f
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-38d081da9
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:5926e32d5610e2ad34804e90de37db2b724a45c5e577e69d0ee873ed4697f8e2
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc1-20220913.1524-a801045f7-linux.amd64
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:a801045f7f376c3f395ddb1a7c1326a46e2e6de6ebf8110af3c6518a949df3d8
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc1-20220913.1524-a801045f7
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:080c0db39542b67784fe6b521b796feb6454f54eb69650e7678523e9c5979d75
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-f47f8562a-linux.amd64
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:f47f8562aaac5de44267d8c774b6a1d8c6f15417f17ff7ea7197e90b4f5324e9
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-f47f8562a
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:0fd3b3bcb8eebab579eb53ef2e2342e5b1f7f08ae7e2a32469d708266fbd5acd
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-db1e1a83e-linux.amd64
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:db1e1a83e7e0215826ae7bbc32bcc3c322cc5218845e8ad06c59b926f14e8edd
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-db1e1a83e
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:c431eec70f8c067bf02633f9aaa989ddeab7c9ae72caa1ac1b7ce07e60d65c63
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-2059a2cea-linux.amd64
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:2059a2cea628ed6934f2c7b6a84c79ec4d99e1bb5de076808990f73e9d6d5e7b
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-2059a2cea
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:554ed5726bdd55f5246ee62131f2da8ef66d05226be241effa3a93c38d742c33
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-8bdd16646-linux.amd64
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:8bdd166464bf8d2e767ddd84acbf3c4cf65761382beacc0a1faf7cf2a279b775
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-8bdd16646
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:cf545000a18c0b5eed24713b9dd6175c1bc2148bbc7b3e98527881f5cad1515b
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-ed047d6f8-linux.amd64
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:ed047d6f804eba0a629e5e73a195dd1ebca9b9c0a301b8d5ec878dc9dd477c55
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-ed047d6f8
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:ee1d8a2050f2cd40b5a58425e530b1f4dc6e538d0387f14c48763fc81f3346b5
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-75d73f10f-linux.amd64
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:75d73f10f8c405321dde17c087d8370a2fd11b8b8cb293379f09dba68b2a8523
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-75d73f10f
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:8f8da49032afcda2220d94d0fc32fd5030cb00795df4e59dee37549abdfeca66
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-66bc3c5ae-linux.amd64
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:66bc3c5aea90d50b9530079c6e120a3d2f1a416fc62d75a144ac6c6329e251a9
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-66bc3c5ae
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:6fc18f824761646a1bd0dc7847e005f824c3ef08ba9ade7323d85f9f9729dddd
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-e837d64eb-linux.amd64
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:e837d64eb64c17f746137425782879cfaa1e41ac3afde3c512a0d0dec508ce1a
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-e837d64eb
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:3b3cbda0c8164fa6b392af73459fd19a0f1f86df804cfbf035736ec10cd71400
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-f50495184-linux.amd64
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:f50495184262dcbeabba7226bb72ee223fb3cc69a3e1bf5e7b2b78bf6ddf10bb
+  image: cpopen/ibm-aiopsedge-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-f50495184

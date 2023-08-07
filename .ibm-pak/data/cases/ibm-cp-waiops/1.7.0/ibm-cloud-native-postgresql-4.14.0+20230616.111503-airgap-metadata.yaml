@@ -1,0 +1,15 @@
+supportsRelatedImages: false
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-cpd-cloud-native-postgresql-operator-catalog@sha256:a06b9c054e58e089652f0e4400178c4a1b685255de9789b80fe5d5f526f9e732
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

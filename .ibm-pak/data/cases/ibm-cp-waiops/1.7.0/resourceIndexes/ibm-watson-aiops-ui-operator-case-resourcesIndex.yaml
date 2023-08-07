@@ -1,0 +1,310 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.1.0
+  category: catalog
+  digest: sha256:8bf1e614652cc227f8080905010eeddb9d43dafcb34a8e08ccb77fbf718a8884
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-8bf1e6146
+- caseVersions:
+  - 1.1.1
+  category: catalog
+  digest: sha256:2fd2b670227890266604e52897110e940160c08b6ef6661eef1178b70f8cd5f9
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-2fd2b6702
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:801a93e606680ec556d6c79d70937caebaac32feae80d9f6017059d2124a76f1
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-bf4420e8b-linux.amd64
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:bf4420e8bb192e7aebcc2dacef294edfc15d516b8489d22e90698a6386c839ac
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-bf4420e8b
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:ac444533aa75ba33b10d73cb4c1675d214a79ea15aa3dab5a406ebabb0a4960e
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-aa4469280-linux.amd64
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:aa4469280a4e32b59be2ce7755899c66f27ea462aa7ebdbbcd0e72324702b35d
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-aa4469280
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:e9ba28eb47048e14e5c1ef64fa6517ac446bd423045b03c286fd2d6ab0ba25aa
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-719830040-linux.amd64
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:719830040cb516e42f8738ec8125efe047c20563b4f2e405a7e8202abdd43505
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-719830040
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:af1577639716452dfa5c2cdacb407abb481f50a99499337395972dbe91d4df4a
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-2c3ea2dda-linux.amd64
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:2c3ea2ddade8b05fed0d8bf3e99c0f93cd353e2d2368e0add23675c6690722fc
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-2c3ea2dda
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:a8d29af7715588f80c2086955b563de98a7fe13465c2b26851bd2d0dfd2de061
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-2e4f45435-linux.amd64
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:2e4f4543570722962ccae20797793a498638f7004487b03818844354f7745cfa
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-2e4f45435
+- caseVersions:
+  - 1.3.3
+  category: catalog
+  digest: sha256:2f48cfb3f8e812953afba0b4f9be49631dc2c7f266ae52e05a57f4187e7cc14c
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-0dc0b37ea-linux.amd64
+- caseVersions:
+  - 1.3.3
+  category: catalog
+  digest: sha256:0dc0b37ea6358b3c6e73d66fb827a6ed7f396742e7f10b1660ead2d49d8fb4f1
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-0dc0b37ea
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:03ba1b2b1d7948aefefdfeb41ed376982ca16a15cb960c1ca6a302a85900207f
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc1-20220913.1524-f2e1011c1-linux.amd64
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:f2e1011c1acaf7438e06f93c995b46e888a232be25a952e8b732b43bd5c12e58
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc1-20220913.1524-f2e1011c1
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:553c7874daf0080e8c5001fffc3e0bf7002b8922cdac816aaadaa2cef197facf
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-f857e02fc-linux.amd64
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:f857e02fc9b0a64be1c5efcd458702fd244e1745474d67934a8a416cf1546ac0
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-f857e02fc
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:8b6a2dd8c0e82b9950b619edb9b8788da3f6444f25aefbbd4ebe95b826f00a31
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-3fc21a2f8-linux.amd64
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:3fc21a2f85bdfe9e714f26c5846b703d56b50a45a188136ec60a20044751ec3b
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-3fc21a2f8
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:be5ef9c1e01c32e9906fa74902d1857f03f29db21225c3f75abc256b9d0232f5
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-2493fcef7-linux.amd64
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:2493fcef7098dad6339843eefb42173fa57d826a92180f8971a0737e4119fa5e
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-2493fcef7
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:b2c57da729cb6792abfff2a70dde35c94c2b13ab4d6d451644c6d4695a32db1e
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-489dcdecd-linux.amd64
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:489dcdecdbfe2ac9509275c380f9ed620aa7a573f12c10c78a545e30b93e30b1
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-489dcdecd
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:221cc128a493d2a7bf3b618a0c5e36ee6319083b49fe5e0bc363bcf1bd8df6f8
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-c99196bd3-linux.amd64
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:c99196bd35ebe5dbde66e2371ab00551b9c7431597d16deab62b51a91ae27336
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-c99196bd3
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:155faf66514d25214e58165803216c79b0f93bd3171dc6336e10c77c8245da11
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-e3471deb1-linux.amd64
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:e3471deb1770624092a439873c1b1cb9f4c9db06f4fc8c7722032681c6f9f72e
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-e3471deb1
+- caseVersions:
+  - 1.6.2
+  category: catalog
+  digest: sha256:b7e1fabaf7740b4fdbdc93f6d3b3f535ec312d9997d9145b73bc5d90851ce5bd
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-687851db2-linux.amd64
+- caseVersions:
+  - 1.6.2
+  category: catalog
+  digest: sha256:687851db22ca7386d22c80077af4cefebb13828ae93a5d8368c5f3afa12b236d
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-687851db2
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:99e5981237291eb6c3cf60e0287eee43b0ae471ea2b2eaac58860d86f633bc9c
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-ad69d8362-linux.amd64
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:ad69d8362c2b8f0b0a5b6c78bbff08a0f48f50c5d05d766efcfce0d07a9e1692
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-ad69d8362
+- caseVersions:
+  - 1.7.1
+  category: catalog
+  digest: sha256:f3277fbdebe914e8d73fe8da317de7aae0f9e78a38685c9410d5584e1254d481
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-5f08955de-linux.amd64
+- caseVersions:
+  - 1.7.1
+  category: catalog
+  digest: sha256:5f08955def33ed981535e8d7ae3beb07b428c12edbfb5514c039999d921f2649
+  image: cpopen/ibm-watson-aiops-ui-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-5f08955de

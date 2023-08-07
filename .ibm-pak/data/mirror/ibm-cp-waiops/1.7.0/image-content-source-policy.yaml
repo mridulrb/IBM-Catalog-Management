@@ -1,0 +1,12 @@
+apiVersion: operator.openshift.io/v1alpha1
+kind: ImageContentSourcePolicy
+metadata:
+  name: ibm-cp-waiops
+spec:
+  repositoryDigestMirrors:
+  - mirrors:
+    - localhost:5001/cp
+    source: cp.icr.io/cp
+  - mirrors:
+    - localhost:5001/cpopen
+    source: icr.io/cpopen

@@ -1,0 +1,15 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-aiops-lifecycle-operator-catalog@sha256:4c72efba9c4db27f52318077f660c376d85e6ec1f408c7dcc7b861a03e10e461
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1;impl=fbc
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

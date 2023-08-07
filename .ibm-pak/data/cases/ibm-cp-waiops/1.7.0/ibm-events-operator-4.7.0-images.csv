@@ -1,0 +1,3 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-events-operator,4.7.0,sha256:38c754ba873f5917540220dbd99264f4a7670e73fe124c90b0a0223a6b5dfa86,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/ibm-events-kafka-3.4.0,4.7.0,sha256:10b370fa49959d60906c6fc5f291ea50f41f986985ed4e915b64ce55a96183b0,LIST,"","","",0,CASE,"",""

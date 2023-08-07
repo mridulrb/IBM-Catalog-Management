@@ -1,0 +1,5 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-crossplane-operator,1.12.5,sha256:8bdb22199284a9bfcfa38cfa9d3bfe5579828836b504e8fe4b39a21f710191f7,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/ibm-crossplane-bedrock-shim-config,1.8.7,sha256:0425e413c7dde8b3a15313b3dc2fd7f56a2b5bbbbff67e42becd353b476829ca,IMAGE,linux,amd64,"",0,CASE,"",""
+icr.io,cpopen/ibm-crossplane-provider-ibm-cloud-operator,1.12.5,sha256:df1911e64c8497ad64e044388ec73738aaa56a95226089afeab4a3926996a97f,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/ibm-crossplane-provider-kubernetes-operator,1.12.5,sha256:9fd24cb05ed287180116a8313602f30dac4dbfa8f5d57ad217b06c3b2c4e003a,LIST,"","","",0,CASE,"",""

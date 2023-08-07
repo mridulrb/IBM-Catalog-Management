@@ -1,0 +1,310 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 3.2.0
+  category: catalog
+  digest: sha256:75bb9eca36262d3754c68a2b3ade2576a926cc00beabb50baa8387896bef98a9
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-75bb9eca3
+- caseVersions:
+  - 3.2.1
+  category: catalog
+  digest: sha256:cdc0862c4aeb9824c038a81434c98f9eacb1226fb203550a5ce5ccfbbfbbec54
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-cdc0862c4
+- caseVersions:
+  - 3.3.0
+  category: catalog
+  digest: sha256:bf5cd898019e3ab5ba3df375c9294aa1f7c19d4a862995c41e2c88473f8b14cd
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-d2e50f82b-linux.amd64
+- caseVersions:
+  - 3.3.0
+  category: catalog
+  digest: sha256:d2e50f82b1992654c19f3810ce1bbf8c3362cf6206f06a7c2b68203ffade2ac4
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-d2e50f82b
+- caseVersions:
+  - 3.3.1
+  category: catalog
+  digest: sha256:dc822c571db3f28ca90bc1ddfaf38b321d52d170630cf204d54d50c1bb472e8c
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-1a3b711d1-linux.amd64
+- caseVersions:
+  - 3.3.1
+  category: catalog
+  digest: sha256:1a3b711d1dd0f150aa27dfbbf30960799ccfe6ac25accc54663045a756ae9b94
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-1a3b711d1
+- caseVersions:
+  - 3.3.2
+  category: catalog
+  digest: sha256:084718af27469d178e36f1ba1cd1af8adde412dfab6acefd0cd919e73c773242
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-30f06bb6f-linux.amd64
+- caseVersions:
+  - 3.3.2
+  category: catalog
+  digest: sha256:30f06bb6f78b8ab1c88c6a51cc7302f893d903f55e2fd2097159bc3c1184daba
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-30f06bb6f
+- caseVersions:
+  - 3.4.0
+  category: catalog
+  digest: sha256:3e77b41b931b75dec50c57e73282bc3138f1cecee2fd20d5050d396d36cf733a
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-4c4a29d60-linux.amd64
+- caseVersions:
+  - 3.4.0
+  category: catalog
+  digest: sha256:4c4a29d60dd901ae3c095df58fe9847137c1a89ad9819e982ed213b9e1e0f5b2
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-4c4a29d60
+- caseVersions:
+  - 3.4.1
+  category: catalog
+  digest: sha256:6e220caf3515b1002964a983b2f6e972764f710c3e2e1defcc30059507396ef5
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-f160788a6-linux.amd64
+- caseVersions:
+  - 3.4.1
+  category: catalog
+  digest: sha256:f160788a6cab4af0c20b2bc08b00606b41ff4b7619fb7b1c07446388904d98eb
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-f160788a6
+- caseVersions:
+  - 3.4.2
+  category: catalog
+  digest: sha256:958729a99cbaf6033433a3b4c339828f6d52b05585c254f85986a20dfc42c4d7
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-17dce3532-linux.amd64
+- caseVersions:
+  - 3.4.2
+  category: catalog
+  digest: sha256:17dce3532e3ec237bd9523d6dd543db9506c9037c3f56b43d01f79ee134cdf3a
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-17dce3532
+- caseVersions:
+  - 3.5.0
+  category: catalog
+  digest: sha256:bd497689d1a9e9976d018b251166ad2b1100fdc3e77a907038525712096c3db2
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc1-20220913.1524-608c79f16-linux.amd64
+- caseVersions:
+  - 3.5.0
+  category: catalog
+  digest: sha256:608c79f16d2a8e8296a2a15261bf50a55c78ce9d23fc825b647fe7207364f897
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc1-20220913.1524-608c79f16
+- caseVersions:
+  - 3.5.1
+  category: catalog
+  digest: sha256:03734d7ae5132b3ed1743325d92a54016f2e510e5a9cf5264aefa0b6d5cd59ff
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-1f5fd24cb-linux.amd64
+- caseVersions:
+  - 3.5.1
+  category: catalog
+  digest: sha256:1f5fd24cbcfbafea05ca805135c23cad7a52df5238317b4eddd9023d3596bb77
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-1f5fd24cb
+- caseVersions:
+  - 3.6.0
+  category: catalog
+  digest: sha256:280f55a04b9a68cf4df88feadc8a958574cb9f4681e9e954af7aadc13dc1c16b
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-ae6852159-linux.amd64
+- caseVersions:
+  - 3.6.0
+  category: catalog
+  digest: sha256:ae6852159b44a34dec13b88b13d6ae8ba71eda5ef5c30005fc937e2dde323329
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-ae6852159
+- caseVersions:
+  - 3.6.1
+  category: catalog
+  digest: sha256:c2bab3250a9f80fe3e1e28c674730add0df63feb04b2738b60151a24af5b7e7e
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-a8dace3b0-linux.amd64
+- caseVersions:
+  - 3.6.1
+  category: catalog
+  digest: sha256:a8dace3b0dd5f4a710b37a5291110d5c6c8462f2360a1ee2cc08220ac8500198
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-a8dace3b0
+- caseVersions:
+  - 3.6.2
+  category: catalog
+  digest: sha256:9b7b1c27c49be7b329bb98cbb5b875927eb23c4dacadf632194c31e4d2b26e20
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-6847ec537-linux.amd64
+- caseVersions:
+  - 3.6.2
+  category: catalog
+  digest: sha256:6847ec5373b12ba3f6e3d44b92e61804747a8bca5755dcf53b2c48340fd61755
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-6847ec537
+- caseVersions:
+  - 3.7.0
+  category: catalog
+  digest: sha256:a7e29046ba9e2e715fefcc077a49e854740ed80bf4777fe814932d66e2430212
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-c946a7de9-linux.amd64
+- caseVersions:
+  - 3.7.0
+  category: catalog
+  digest: sha256:c946a7de9bf93f61e100b87d1672253ba9e193a43140ba44bca844d6a219862c
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-c946a7de9
+- caseVersions:
+  - 3.7.1
+  category: catalog
+  digest: sha256:0c40f253fd36d806a31031d19360fbd7d945d1bc2ab179607844761b0cf40548
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-fb5fa56c1-linux.amd64
+- caseVersions:
+  - 3.7.1
+  category: catalog
+  digest: sha256:fb5fa56c19630587936413a21ab1a228d0f580fa65ffee3262f8000d123b40db
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-fb5fa56c1
+- caseVersions:
+  - 3.7.2
+  category: catalog
+  digest: sha256:04079e5fb323e328840e9b74f2f22bb54fbfeb57389a02a5d2d34df588783add
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-47dd82e2e-linux.amd64
+- caseVersions:
+  - 3.7.2
+  category: catalog
+  digest: sha256:47dd82e2e263bb0637220cdb7689a0356a6c487d7c0a44cc9a5d8970334407e4
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-47dd82e2e
+- caseVersions:
+  - 4.1.0
+  category: catalog
+  digest: sha256:e48da1334bd7f7cd415e0d12ffd82f63bd1c5c18eb161f9fc6357c419cbeef80
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-abb13eb4a-linux.amd64
+- caseVersions:
+  - 4.1.0
+  category: catalog
+  digest: sha256:abb13eb4a74574922379779bb0e7f281887ed75df7baaf8fcd4e71202b045b05
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-abb13eb4a
+- caseVersions:
+  - 4.1.1
+  category: catalog
+  digest: sha256:3f435831a52112ef3f3a333e94c33dda2e309453d9e22e7f2d22101815477eab
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-9188e9dfa-linux.amd64
+- caseVersions:
+  - 4.1.1
+  category: catalog
+  digest: sha256:9188e9dfaf2101e58ad3d2b498117b5d9aef6eed040d1f16dd829b7a9c8b5d91
+  image: cpopen/ibm-management-kong-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-9188e9dfa

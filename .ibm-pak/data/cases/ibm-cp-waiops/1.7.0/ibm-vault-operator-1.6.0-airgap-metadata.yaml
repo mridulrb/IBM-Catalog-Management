@@ -1,0 +1,15 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-vault-operator-catalog@sha256:cdd946eec2fa09c1ca0c749819a87a50187e18ec16fa84dcca41cc690453fc55
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1;impl=fbc
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

@@ -1,0 +1,5 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-platform-api-operator,3.25.5,sha256:86ed9995db71737e4d13979bd0e86b5cbaf8c37281087a043ce11ef52b008491,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/icp-platform-api,3.23.5,sha256:c47ad19d0d3e9a336b645c1944f207219662c03808a42fe2d93b50617d61f4c5,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/audit-syslog-service,1.10.15,sha256:b842e1d407b7b728f6e02d551fe929471fb013fe5820b31e45b6a0f0ccf7ffed,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/kubectl,2.6.13,sha256:076e7c8c73c1b38ea777c4951839f2ee90c4d5d0825a9a71ebb20a9adaece37d,LIST,"","","",0,CASE,"",""

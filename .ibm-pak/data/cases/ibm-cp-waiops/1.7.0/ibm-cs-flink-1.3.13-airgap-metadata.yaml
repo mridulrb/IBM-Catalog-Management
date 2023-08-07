@@ -1,0 +1,15 @@
+supportsRelatedImages: true
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-cs-flink-operator-catalog@sha256:076685012d2b2b4f42af2d9a678aa8a09065b126c3f36bd45be006db5a5775eb
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

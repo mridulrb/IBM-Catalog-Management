@@ -1,0 +1,223 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: aiops-analytics-operator-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-aiops-analytics-2.5.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-aiops-analytics-operator-catalog@sha256:29af63cb72bdbd2aae1e8ccc86223bbd1ac332ed9bc7996ab83ee23c1cbd2e98
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: aiops-lifecycle-operator-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-aiops-lifecycle-2.5.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-aiops-lifecycle-operator-catalog@sha256:4c72efba9c4db27f52318077f660c376d85e6ec1f408c7dcc7b861a03e10e461
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: aiopsedge
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-aiopsedge-bundle-1.6.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-aiopsedge-operator-catalog@sha256:e837d64eb64c17f746137425782879cfaa1e41ac3afde3c512a0d0dec508ce1a
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: cloud-native-postgresql-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-cloud-native-postgresql-4.14.0+20230616.111503
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-cpd-cloud-native-postgresql-operator-catalog@sha256:a06b9c054e58e089652f0e4400178c4a1b685255de9789b80fe5d5f526f9e732
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-aiops-ir-core-operators
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-aiops-ir-core-operator-2.5.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-aiops-ir-core-operator-catalog@sha256:6a020bd041bbd0f60ddefe5172b4720ac55fc95c67bc903cb7507616fc989488
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-asm-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-asm-operator-case-2.15.0
+  publisher: IBM
+  image: localhost:5001/cpopen/asm-operator-catalog@sha256:8a7dfb10bdf166a7336ef5fbe524bcf6b167e326c88a37f75b0225aa78f7b917
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-cloud-databases-redis-operator-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-cloud-databases-redis-1.6.5
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-cloud-databases-redis-catalog@sha256:e1068e9adbd5b9e9b7519080afa3fb0b7a809835276157bbc9f32723b1091674
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-cp-waiops-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-cp-waiops-1.7.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-cp-waiops-case-bundle-catalog@sha256:566a8e48a22614ce4b7d39c38c1f63ce483630c834a0c0dd3e98e69143664e76
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-cs-elastic-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-cs-elastic-1.3.13
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-cs-elastic-operator-catalog@sha256:655128dbed1bdc2eb80921956638d97b9f8c28d87b59f7692254d56f55b08166
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-cs-flink-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-cs-flink-1.3.13
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-cs-flink-operator-catalog@sha256:076685012d2b2b4f42af2d9a678aa8a09065b126c3f36bd45be006db5a5775eb
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-kong-management-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-management-kong-4.1.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-management-kong-catalog@sha256:abb13eb4a74574922379779bb0e7f281887ed75df7baaf8fcd4e71202b045b05
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-secure-tunnel-operator-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-secure-tunnel-4.1.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-secure-tunnel-operator-catalog@sha256:f0bf25f2a8d53a99ccbccc5725fb153a8d49405ed7f37dc87a45a781c1055bf0
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-vault-operator-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-vault-operator-1.6.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-vault-operator-catalog@sha256:cdd946eec2fa09c1ca0c749819a87a50187e18ec16fa84dcca41cc690453fc55
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-watson-ai-manager-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-watson-ai-manager-1.8.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-watson-ai-manager-operator-catalog@sha256:c21c1e445b93fce62f82a71cfc3675877477cf0acafe4e17a4a0106bc64c6b89
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-watson-aiops-ui-catalog
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-watson-aiops-ui-operator-case-1.7.0
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-watson-aiops-ui-catalog@sha256:ad69d8362c2b8f0b0a5b6c78bbff08a0f48f50c5d05d766efcfce0d07a9e1692
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: opencloud-operators
+  namespace: openshift-marketplace
+spec:
+  displayName: ibm-cp-common-services-1.19.5
+  publisher: IBM
+  image: localhost:5001/cpopen/ibm-common-service-catalog@sha256:4ab515a6a84d232d7f6589751ec0fe777263b37ecc66833de1a2e26fec400fa3
+  sourceType: grpc
+  updateStrategy:
+    registryPoll:
+      interval: 30m0s

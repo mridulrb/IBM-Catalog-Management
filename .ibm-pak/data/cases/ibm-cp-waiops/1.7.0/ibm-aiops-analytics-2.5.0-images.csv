@@ -1,0 +1,11 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+cp.icr.io,cp/cp4waiops/ea-mime-classification-service,v4.1.0-20230621.0047-a2d6108ee,sha256:a2d6108ee6c6d159e08591ba5ec904101f40b865e2367e748e570a12fe910b24,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/noi-metric-action-service,v4.1.0-20230621.0047-a940f6383,sha256:a940f63831056d4075c4d65c26de61569bf0c0ee6d5155828e031311f87dfd1c,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/metric-api,v4.1.0-20230621.0047-8f04bd15c,sha256:8f04bd15c37eff8cfb36228f3f61633ecffe4301678310e51252c796311b0dcb,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/metric-spark,v4.1.0-20230621.0047-52a70a39a,sha256:52a70a39abb66068a0c8f235ebf201d8d8a53b912a9c7054f28147b14cb72eb1,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/probable-cause,v4.1.0-20230621.0047-44c5cdfb0,sha256:44c5cdfb08a7c18eeac2b4c4f9c9e853b4fd88d94e56808519d81104cb12f5f7,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/spark,v4.1.0-20230621.0047-85c8b7d84,sha256:85c8b7d840c613abcd8f9382ffe4e6bf2d815f7aa0d3ecf516f0321114fdf16d,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/training-service,v4.1.0-20230621.0047-b6612418d,sha256:b6612418d2043526833816d87dc95209aa8634d5bbd0ab9025a4d2e96818c549,IMAGE,linux,amd64,"",0,CASE,"",""
+icr.io,cpopen/ibm-aiops-analytics-operator-bundle,v4.1.0-20230621.0047-bd6f272a7,sha256:bd6f272a77835ca50a1920790685892382ddfd8241bb99c9c7395dd945ad7cff,IMAGE,linux,amd64,"",0,CASE,olm-bundle,""
+icr.io,cpopen/ibm-aiops-analytics-operator-catalog,v4.1.0-20230621.0047-29af63cb7,sha256:29af63cb72bdbd2aae1e8ccc86223bbd1ac332ed9bc7996ab83ee23c1cbd2e98,LIST,"","","",0,CASE,olm-catalog,""
+icr.io,cpopen/ir-ai-operator,v4.1.0-20230621.0047-d9a940192,sha256:d9a9401925180c542f2d538d26044d46240531a64a7dd53b67696d34f3cbdcc7,IMAGE,linux,amd64,"",0,CASE,"",""

@@ -1,0 +1,340 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:4bc12e5917940571467213c3a6e6aa1f683d589b679cef7cc68a8e220b3c751d
+  image: ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 1.0.0-20201208135850
+- caseVersions:
+  - 1.1.0
+  category: catalog
+  digest: sha256:bef3d01a10447a920759177e0dbe920c7c8d5a8e90cd29bce61e5009019008b4
+  image: ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 1.1.0-20210326115100
+- caseVersions:
+  - 1.1.1
+  category: catalog
+  digest: sha256:6ed3724b7806e8cf5aac286a4227587ef1aefb45477af0e1c4be51b941dfce03
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.1.1-20210724.0401-6ed3724b7
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:c3d91c5962b13fb8794da886efc74bbe843e3615ebfe74cdcb9b81f79ab6f73c
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-c3d91c596
+- caseVersions:
+  - 1.2.3
+  category: catalog
+  digest: sha256:67cf564b29a786f43496c78be9e54d2dfaa97c517e45f0fb3fdd98f4db5828a5
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-67cf564b2
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:8b038354c1fa119c459c874745899808a29f5e2ea6ff9c268ee1d247fb7eb0e9
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-dcfae2ee4-linux.amd64
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:dcfae2ee4c103fe23c2c26a732f68152f484652d05caa152356a552eb991b749
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-dcfae2ee4
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:f44cd833a251e30dbbce57bf37f5fb95fc6209ba47a6204a7ce2f427f38719e1
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-8ae72e49f-linux.amd64
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:8ae72e49f281f37882e9cc415d740b567df29279a4dae8852657b353d50b602a
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-8ae72e49f
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:159af7811d09700abed0f9fa8f04359210e79d1989d17e444d46a8f6b1e47b3d
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-2762c59cd-linux.amd64
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:2762c59cd3093102d7f5413510b304b765aaf1aad714066b35728bc12fd653b4
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-2762c59cd
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:1dab1f63ce6322299eff63ab42f87129d11b3df56267266880c1c16bca4aba1a
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-bbeefbcb9-linux.amd64
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:bbeefbcb959fc9ddc56b8b24029e83750825f8fadae4f41c304f3c8ba68e6ad4
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-bbeefbcb9
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:c403c3f6f041454b08350d98805b334ec710511bac71a04b2f8461b0a74f4ccb
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-7aa61ca20-linux.amd64
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:7aa61ca20561ad9c3e1187f575ce4706624d77d605c4fc7508fb628a3f073547
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-7aa61ca20
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:ff2a8287bfd549bb342d857649b321d10606457140a6d1cd19164ea1ee7ed492
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-56376e347-linux.amd64
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:56376e3475c53945763b194f8f95723d6d95ae11e5cc76c37aebc912eee4d5b1
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-56376e347
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:aa27df173ddaccccbaa0d5319100fe115e3a7a51fde4ae8353600ebcbaad683f
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc4-20220915.1824-dff284f01-linux.amd64
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:dff284f0184e7525ed3ef8c4826de5973cf75507a94ed961357a8228884f458c
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc4-20220915.1824-dff284f01
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:9171874c05810850baab8493d7e7e7a2d2ad108f7f808db193ea8dc4051e3d3b
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-b95ed30cf-linux.amd64
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:b95ed30cf1c3189e0f8f56fd1135dac76474d3f54cad29a434b722dc2d8a9c78
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-b95ed30cf
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:42a020c116447c0ebae52675d660b68f02f82b3cebed9ede23ad86d697f491df
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-cdb83bfb4-linux.amd64
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:cdb83bfb4b0ca72c01f55b9f65b8207dc7e9db46a8f53872ec9da2e0c4e8dd94
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-cdb83bfb4
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:8449840de6ec12bd8766dcb83dbf2e21c59aeb55471e6e9305659633f6a6ab94
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-2d780bd3d-linux.amd64
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:2d780bd3d529b50cc8eb285a9b40370bfd7f2801cd0a06f0ebabe1764a1f39fc
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-2d780bd3d
+- caseVersions:
+  - 1.6.2
+  category: catalog
+  digest: sha256:37fe2098e3d436093402a4fa545d96355f7d9f840c974ff6a67f26ee59a2b469
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-344df269d-linux.amd64
+- caseVersions:
+  - 1.6.2
+  category: catalog
+  digest: sha256:344df269d598d9b8b4f6059fbf3069261bd11e6f23bf858cf3c9a18511ffbda0
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-344df269d
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:047e6c1b80812ded00be97ba28bbbd8e19ba2cd07425e5b939a6a8a0f6682a4e
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-ec65fe518-linux.amd64
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:ec65fe518f4d039ed44ad87b7ecb3ef49eed3f80dd494f5b82adc54cc1504456
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-ec65fe518
+- caseVersions:
+  - 1.7.1
+  category: catalog
+  digest: sha256:90b07784ca26261d3bb136ae4668767f1abd220386e0d001f2e782f235799469
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-6f24e5038-linux.amd64
+- caseVersions:
+  - 1.7.1
+  category: catalog
+  digest: sha256:6f24e5038f9f4318896938babe3839f4ad0cef121b3fd284921ac73c34a1ec9f
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-6f24e5038
+- caseVersions:
+  - 1.7.2
+  category: catalog
+  digest: sha256:d15799177ca99fe5c9fd0102be108f83c64738a630697cd174308ccfdf1274fb
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-b82e67dfc-linux.amd64
+- caseVersions:
+  - 1.7.2
+  category: catalog
+  digest: sha256:b82e67dfc27e310f6212a3910ddef5211aafe2732f6e743a787a4196ac78cddb
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-b82e67dfc
+- caseVersions:
+  - 1.8.0
+  category: catalog
+  digest: sha256:4bb79ef7195680cc3f10d682debf5d5e9faa9bc6c0af634f6a6daa8f274d71cb
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-c21c1e445-linux.amd64
+- caseVersions:
+  - 1.8.0
+  category: catalog
+  digest: sha256:c21c1e445b93fce62f82a71cfc3675877477cf0acafe4e17a4a0106bc64c6b89
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-c21c1e445
+- caseVersions:
+  - 1.8.1
+  category: catalog
+  digest: sha256:d9792ecb088e4f69a42dfabebd5f9f045fa6b89de1c6afa5915d036a2751c1a9
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-0e1c84a11-linux.amd64
+- caseVersions:
+  - 1.8.1
+  category: catalog
+  digest: sha256:0e1c84a11352ac1ff7f37523d1c18bea09ae35675268fa81da29a76aaebd5d1e
+  image: cpopen/ibm-watson-ai-manager-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-0e1c84a11

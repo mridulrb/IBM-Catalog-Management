@@ -1,0 +1,310 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:56a61dc4b0a611643d87aae28020e3254bcd11e0a724c21c22720c5b44c53d99
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-56a61dc4b
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:3aefa00f3bc8e50b033b623e5e33616e906f7717a175f07ed4167f828d2a8cfa
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-3aefa00f3
+- caseVersions:
+  - 1.1.0
+  category: catalog
+  digest: sha256:6231012a3a76c0682996d5c45c5c6c1476a13562f784794af1bd839c667adfaf
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-c59f952cb-linux.amd64
+- caseVersions:
+  - 1.1.0
+  category: catalog
+  digest: sha256:c59f952cbf6f85a426209c0e98dc0374bb51ed336ac11a1dba5ef9f01feae40a
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-c59f952cb
+- caseVersions:
+  - 1.1.1
+  category: catalog
+  digest: sha256:6021a8e9872950694a72d5914159416b903b4b33ead502c6eb6a99f1e7c930ce
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-4e3d6e5e8-linux.amd64
+- caseVersions:
+  - 1.1.1
+  category: catalog
+  digest: sha256:4e3d6e5e883c2f915cf657f108b5d1a9df86a25ac8f1bc220f82a1b8b60371cb
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-4e3d6e5e8
+- caseVersions:
+  - 1.1.2
+  category: catalog
+  digest: sha256:3e84cf61cb83512036c80f673be7228d536a717d2f71bce447973ea764102ca7
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-276c60615-linux.amd64
+- caseVersions:
+  - 1.1.2
+  category: catalog
+  digest: sha256:276c60615d3dd38441c0ac5988869aa1fa786ea78ac284b8e5cadf2a219100f5
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-276c60615
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:1a29739b9d9ae45392f037f0fb0d76d4f50cc6f6d40e0ff987d7ffc3cf74b803
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-24286f6a9-linux.amd64
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:24286f6a9a0796c49b819c29ce30f32ff43376eea5d5d9cf2e6f490dc9d10b61
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-24286f6a9
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:09cee5ea783e5937af3e40af932d10d905d196d69316d3293cf3c2759ebbf129
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-aff610b28-linux.amd64
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:aff610b2826b6d6acd8a3a382def35209dd11ce92c486d19d06cfc1555a01f20
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-aff610b28
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:669539b0fbddc6e06a4729dfc53338d3a4774e324aab51e46092b94dedf0addd
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-736a0db4c-linux.amd64
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:736a0db4c8cf3223c0ef04c905bb799651f9b5bec65c1ee24d94c317933ca289
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-736a0db4c
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:61d9476bdcc24b24f32b6040f2f7646ebb3b8017751dfd2f777a69a52d9d1e3c
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc1-20220913.1524-715f3e02c-linux.amd64
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:715f3e02ce90ecf2452c774182f54e0fb44d7869cffef6ccae52d2339fcbbaac
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc1-20220913.1524-715f3e02c
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:fc46717935db6a3654f1474a78a30dfafdd66ce7898700be95e06394ff64c2f2
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-bf666e1b7-linux.amd64
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:bf666e1b74648a17e2f5615635208b187a9271bfdbbe9773729faa6a1503d0b0
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-bf666e1b7
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:3c92f782bb701f569e47dbc505364cc4ffc0302b66890f4cc361ce3c0c668164
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-3ee798c03-linux.amd64
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:3ee798c037021eb449ca3ac4908d137b9294c56cc28c5e23824253c346928fa7
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-3ee798c03
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:ee1c02d7f599b095f1c4d63606e57946fee9bd0b5088c2204dc8c35f84e7c6cb
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-261df9494-linux.amd64
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:261df9494ab54f77f2a64ec7427a2179c220bc5e1f1109ad0fe2e6538574595f
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-261df9494
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:e1a77bb90cb600a5307c4ddd5147737f11a2397091002230f88e5cbc452d14f1
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-758d6baf9-linux.amd64
+- caseVersions:
+  - 1.4.2
+  category: catalog
+  digest: sha256:758d6baf94275d703557a8fe2cd3199836f89bdc51592ba8f730ac6c9351a906
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-758d6baf9
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:e8ef0dfca067ee8e0a457f09dfefcc39b9f47cab6f7ae6a5e6d36069062de8d4
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-5fd89994e-linux.amd64
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:5fd89994ef692d4236d6d888b32d51305a134c2c5a887d4b1ffba181e5485a03
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-5fd89994e
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:125e033b824232382f8f278b781ba9d488035f1fd02d7592c36a7f70cceb786a
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-219a5eb15-linux.amd64
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:219a5eb15f4ec8fb9e6cdde048ffbcbbdcd0a494b2bc585c85efdb15d3768cdc
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-219a5eb15
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:9dc7c384c690693cd6d7e236e61d39b5d76fb6d754486b3ab0965fd9a06a0253
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-a88eedb32-linux.amd64
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:a88eedb32eb3b9c923511b6c086bb970c214644a43509c84ad1d34d265180d20
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-a88eedb32
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:d152ccd38b20ac2724eaf089d33c3704351622320c23194999622c825be7124c
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-cdd946eec-linux.amd64
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:cdd946eec2fa09c1ca0c749819a87a50187e18ec16fa84dcca41cc690453fc55
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-cdd946eec
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:0b627553ed31c5907668d328b9cade276146d5cfc93cadd39c404c4415e288e9
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-55200efe1-linux.amd64
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:55200efe107602a2a374d2a31b7747740e439a344a88400e14d1de8dc9abd3ff
+  image: cpopen/ibm-vault-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-55200efe1

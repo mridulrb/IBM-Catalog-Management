@@ -1,0 +1,7 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+cp.icr.io,cp/cp4waiops/secure-tunnel,v4.1.0-20230621.0047-80d3d2deb,sha256:80d3d2deb113cf1e27473148426bcf50930b4c92779d2f6b99090149c8480c6d,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cp4waiops/secure-tunnel-connector,v4.1.0-20230621.0047-63d4b8bb1,sha256:63d4b8bb15c3413ed3bf4c6399d36822e9a549ac0a56d6dc83f3f91e8258873b,LIST,"","","",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/secure-tunnel-ui,v4.1.0-20230621.0047-b09b3f3a4,sha256:b09b3f3a48e8f90da486b8a9b8c041b6e3a26e4718ebb3586a33862dc46340ac,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/ibm-secure-tunnel-operator-bundle,v4.1.0-20230621.0047-0f0afe45b,sha256:0f0afe45b100548dc1cba4744220ee20b09d4dc6ee58178f2c48b3a76fe4b624,IMAGE,linux,amd64,"",0,CASE,olm-bundle,""
+icr.io,cpopen/ibm-secure-tunnel-operator-catalog,v4.1.0-20230621.0047-f0bf25f2a,sha256:f0bf25f2a8d53a99ccbccc5725fb153a8d49405ed7f37dc87a45a781c1055bf0,LIST,"","","",0,CASE,olm-catalog,""
+icr.io,cpopen/ibm-secure-tunnel-operator,v4.1.0-20230621.0047-6aa568b84,sha256:6aa568b841db543934d0b2b60984bff5d19c1cbc6dbf310f569db09247092b6e,LIST,"","","",0,CASE,"",""

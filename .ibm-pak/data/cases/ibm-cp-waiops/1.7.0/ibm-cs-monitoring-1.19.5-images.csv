@@ -1,0 +1,6 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-monitoring-grafana-operator,1.27.5,sha256:2e0dd971f4c7ad5657a062dfe603e4a92a62a2c8e6b07ed56a64fae9fe659be9,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/grafana-ocpthanos-proxy,1.0.32,sha256:3d37e4abfce796708c1fc57ad64cc68ea8a9aae7ae17a584141158eeb2f6bcf8,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/grafana,v7.5.12-build.12,sha256:7e5c8bfefb0d39570e80c57ab6ed249849fe68b2ae27f9966c26321252f9b281,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/dashboard-controller,v1.2.2-build.31,sha256:3ff341ba9efcb91a5f15eb5ee923b5401dc7fcbde47d4e2f86df92d1f9da7049,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/icp-management-ingress,2.6.13,sha256:d78cd7e6f55027e9b1969b904dc90f6c096a1c9f7fb959bf39177ab7885ec25c,LIST,"","","",0,CASE,"",""

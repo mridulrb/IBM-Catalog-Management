@@ -1,0 +1,15 @@
+supportsRelatedImages: false
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-cp-waiops-case-bundle-catalog@sha256:566a8e48a22614ce4b7d39c38c1f63ce483630c834a0c0dd3e98e69143664e76
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1;impl=fbc
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

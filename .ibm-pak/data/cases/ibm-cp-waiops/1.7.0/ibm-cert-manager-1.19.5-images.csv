@@ -1,0 +1,6 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-cert-manager-operator,3.25.5,sha256:a41d9216d740448cd79cb907c7f863c3319aa2d8e25d7d0d6e2b0920f7047806,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/icp-cert-manager-webhook,1.11.6-jetstack.1.12.2,sha256:14294e236c9a5b0b2e502ff2ff25efdad17d6a424f29c0d057c50831f6650250,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/icp-cert-manager-controller,1.11.6-jetstack.1.12.2,sha256:7ad51646fdeba5a7e05bade1ca9037ee42e01ff14e4c7737f75d2f82907d980b,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/icp-cert-manager-cainjector,1.11.6-jetstack.1.12.2,sha256:5ef7793e3c5937acb0d764270441edcb37ebe7d12b0808fa1b5694861e3b7fe4,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/icp-cert-manager-acmesolver,1.11.6-jetstack.1.12.2,sha256:7c9b4b42bdb8ed1c5b954c3facbd8db6f240336229d76886543bf78def32ff48,LIST,"","","",0,CASE,"",""

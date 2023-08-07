@@ -1,0 +1,15 @@
+supportsRelatedImages: false
+admCatalogMirror:
+  sourceCatalogs:
+  - catalog: icr.io/cpopen/ibm-management-kong-catalog@sha256:abb13eb4a74574922379779bb0e7f281887ed75df7baaf8fcd4e71202b045b05
+    imageType: LIST
+    architecture: ""
+    variant: ""
+    os: ""
+    isTopLevelCatalog: "true"
+    mediaType: registry+v1;impl=fbc
+    mirrorImageSource: "false"
+    ocMirrorSupported: "false"
+    groups: []
+isc:
+  operators: []

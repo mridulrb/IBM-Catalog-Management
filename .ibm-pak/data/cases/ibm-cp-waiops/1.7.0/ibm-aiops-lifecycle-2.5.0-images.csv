@@ -1,0 +1,11 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+cp.icr.io,cp/cp4waiops/aiops-policy-bundle,v4.1.0-20230621.0047-2192a6f2b,sha256:2192a6f2b1fa33d200be24ee51bf5b54bffefcf33d71d626fd2acdbea95ce5b3,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/common-datarouting,v4.1.0-20230621.0047-0d51ad933,sha256:0d51ad93349bcd6b5369328ab0c6fcafdc7fd835447268c79d08d7565cca1232,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/http-wait-initcontainer,v4.1.0-20230621.0047-c3a325738,sha256:c3a325738517299550b2ab43d88e5db136b86c4e66a08d9138cb67d69c618b81,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/lifecycle-policy,v4.1.0-20230621.0047-505bbadcc,sha256:505bbadcc1d7a5664224ec4770a111d9e11925be4a622f5de4e2c09cb41a9668,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/iaf-eventprocessing-proxy,v4.1.0-20230621.0047-5e2c71ce1,sha256:5e2c71ce1a3ba0f86ecf20880730415928bee051f40bb79e3a3e4b5649987731,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/lifecycle-trigger,v4.1.0-20230621.0047-0d843d0b9,sha256:0d843d0b9aa207981f703c7124f306b346b3f7bdd57901bd7731f35a0fcf1919,IMAGE,linux,amd64,"",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/policy-registry-service,v4.1.0-20230621.0047-50d74d21a,sha256:50d74d21aa1ccee37e35c9e7fa5ecd46b48256e4798e4734d08d619b88007aef,IMAGE,linux,amd64,"",0,CASE,"",""
+icr.io,cpopen/ibm-aiops-lifecycle-operator-bundle,v4.1.0-20230621.0047-c32d61e3c,sha256:c32d61e3cf32c7c6c6f44d9023473c3477a70186861c89a2c7d16d71574f7ce7,IMAGE,linux,amd64,"",0,CASE,olm-bundle,""
+icr.io,cpopen/ibm-aiops-lifecycle-operator-catalog,v4.1.0-20230621.0047-4c72efba9,sha256:4c72efba9c4db27f52318077f660c376d85e6ec1f408c7dcc7b861a03e10e461,LIST,"","","",0,CASE,olm-catalog,""
+icr.io,cpopen/lifecycle-operator,v4.1.0-20230621.0047-1ced5c227,sha256:1ced5c2279c84d7717c30bb610e53931a923f36cf43055564067c545afc80292,IMAGE,linux,amd64,"",0,CASE,"",""

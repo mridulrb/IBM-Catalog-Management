@@ -1,0 +1,7 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+cp.icr.io,cp/cp4waiops/ibm-consul,v4.1.0-20230621.0047-e04fde72b,sha256:e04fde72bf58229bc87dcc491ea89ddaf4238777f6479776654d7473e2ce8241,LIST,"","","",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/ibm-vault,v4.1.0-20230621.0047-4fe6e58d5,sha256:4fe6e58d52d1894df98c75ca1ee91eddc7a6a2c5400afa75d85e3d15321cccba,LIST,"","","",0,CASE,"",""
+cp.icr.io,cp/cp4waiops/ibm-vault-k8s,v4.1.0-20230621.0047-6358c6a3f,sha256:6358c6a3f15e0fd4c0cc1a290e120f1b8dbd593a04530d2cdf73307ada42c0bd,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/ibm-vault-operator-bundle,v4.1.0-20230621.0047-216e632f0,sha256:216e632f0dbef151b0f2061907bb88c45340e865d1b3efcde1f50cbacf3f2969,IMAGE,linux,amd64,"",0,CASE,olm-bundle,""
+icr.io,cpopen/ibm-vault-operator-catalog,v4.1.0-20230621.0047-cdd946eec,sha256:cdd946eec2fa09c1ca0c749819a87a50187e18ec16fa84dcca41cc690453fc55,LIST,"","","",0,CASE,olm-catalog,""
+icr.io,cpopen/ibm-vault-operator,v4.1.0-20230621.0047-88f5e3321,sha256:88f5e3321d03cff276f36771604d2caea22ea8da74e913bbf97489e52e58282b,LIST,"","","",0,CASE,"",""

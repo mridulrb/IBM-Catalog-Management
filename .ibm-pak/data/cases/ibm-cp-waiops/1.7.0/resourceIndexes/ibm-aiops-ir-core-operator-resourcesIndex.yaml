@@ -1,0 +1,310 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:98e74c4b25f74a02dfc88305f73d7e8da2d1356ee9cd0d3615ed2e4d1f986145
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-98e74c4b2
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:18d2996c67ef13117c2579e538efea6d7abd417b985b6e3bf6ac81dae0be5946
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-18d2996c6
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:20635bdf741440dd2b8e7288268919d8d43e08c8902ed46a5aab5e19613cfae6
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-1467b7bf1-linux.amd64
+- caseVersions:
+  - 2.0.0
+  category: catalog
+  digest: sha256:1467b7bf1fad16b9815c02000bef731c0c7dc4573e0c2cae409f5100627f1832
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-1467b7bf1
+- caseVersions:
+  - 2.0.1
+  category: catalog
+  digest: sha256:1d5b6179ee9b60fa77a2e7dccc541287cfe5f96aa8445bd9200dd4cd8103a4db
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-28b6757af-linux.amd64
+- caseVersions:
+  - 2.0.1
+  category: catalog
+  digest: sha256:28b6757af534118dede7cf477b5b5443c0edb711eee07d777190381b4a028f82
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-28b6757af
+- caseVersions:
+  - 2.0.2
+  category: catalog
+  digest: sha256:c8a129aaef8432cb0393e3220479387f5a017f0b50c7a5136889b4c7717161db
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-bd9a1cff9-linux.amd64
+- caseVersions:
+  - 2.0.2
+  category: catalog
+  digest: sha256:bd9a1cff9c8321302e65a44e279856424d60cb9e8e8b08fd5017b8aefe1a79f2
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-bd9a1cff9
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:989cd1a235ffc523f2982c9c19e5d1cf8ff82f909392bf983acc19f604ae536a
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-06db99c96-linux.amd64
+- caseVersions:
+  - 2.1.0
+  category: catalog
+  digest: sha256:06db99c96f69b65885769642f3b499c6232360f751e0ca88868a0aa3ea87398a
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-06db99c96
+- caseVersions:
+  - 2.1.1
+  category: catalog
+  digest: sha256:3918566aa6e658f7e6664bb3ac213bb5d247970a48abfd104fac529e8a12823f
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-7041e3351-linux.amd64
+- caseVersions:
+  - 2.1.1
+  category: catalog
+  digest: sha256:7041e3351e9412e32bdb166f8bfafa7ade79f291839d8e1a13dc289938f2ed0b
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-7041e3351
+- caseVersions:
+  - 2.1.2
+  category: catalog
+  digest: sha256:6c75a2ba7297799ce26501e626ebb9902ec47a3d1625ace00790371d98cf6bbd
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-677161140-linux.amd64
+- caseVersions:
+  - 2.1.2
+  category: catalog
+  digest: sha256:677161140728d9979106b62668f2b9593c82a99a6760bddfa9119e994f437435
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-677161140
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:838b1a761f8f8bbdf54e5a2296824f58d43403c4db4724b33b353821d3cb457a
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc1-20220913.1524-bb0f2716f-linux.amd64
+- caseVersions:
+  - 2.2.0
+  category: catalog
+  digest: sha256:bb0f2716ff8baf85b3400b40d09cf4a84345ec4d9238013b249e73bc9bbc14a3
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc1-20220913.1524-bb0f2716f
+- caseVersions:
+  - 2.2.1
+  category: catalog
+  digest: sha256:9b2774f98f6cf5c4231bb4b1f46bf5880e7e09448402218326ea1859d91535d8
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-78b693e69-linux.amd64
+- caseVersions:
+  - 2.2.1
+  category: catalog
+  digest: sha256:78b693e69ae9582621461d9915ab3d7361d11eb77d3d027628d94452e8bff411
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-78b693e69
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:cd3ab65ce20c201e5f193d2d860f4f0578c4dfdd60bbd7754001dfaa326ea7c4
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-1877b3527-linux.amd64
+- caseVersions:
+  - 2.3.0
+  category: catalog
+  digest: sha256:1877b3527b17715e9978c07e052c539dc676e9e960f1ef77446ca08e675a81c5
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-1877b3527
+- caseVersions:
+  - 2.3.1
+  category: catalog
+  digest: sha256:081b587abcbaf4d860e29bfd8525fb789cbdacd14e03ce75acdf1ec5a40b0c87
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-f18657c90-linux.amd64
+- caseVersions:
+  - 2.3.1
+  category: catalog
+  digest: sha256:f18657c90af05ff1ab76db247dd5081ffed4472a43592a658bbc7971255acd87
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-f18657c90
+- caseVersions:
+  - 2.3.2
+  category: catalog
+  digest: sha256:cde55db5f21c53a044854574286fdd1e5f706c1e6ea909f6a5a3ec03fac889eb
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-7835a9d02-linux.amd64
+- caseVersions:
+  - 2.3.2
+  category: catalog
+  digest: sha256:7835a9d02541a9ccee69e1618e74b9928786e401a58b60380b6f4a7434eeb78a
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-7835a9d02
+- caseVersions:
+  - 2.4.0
+  category: catalog
+  digest: sha256:0bc7849c945065ddc8d3e7917317d6cbb3b58676c1866327469a9cc5947e7962
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-89c503ca0-linux.amd64
+- caseVersions:
+  - 2.4.0
+  category: catalog
+  digest: sha256:89c503ca000f4033849ed8fb20dd24bd4403182ccac78ec37bbe3912619293e1
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-89c503ca0
+- caseVersions:
+  - 2.4.1
+  category: catalog
+  digest: sha256:f45935959b019c7bb36a88a379720a16fe95c1133e4fe4fe3ccd8eddb928619c
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-ed8ee77f2-linux.amd64
+- caseVersions:
+  - 2.4.1
+  category: catalog
+  digest: sha256:ed8ee77f2cfca635c55a74816d64c345c9d21ed6fda8366a6c8da15d0a8ba799
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-ed8ee77f2
+- caseVersions:
+  - 2.4.2
+  category: catalog
+  digest: sha256:cda77093291a181a580329dc63a0f991d30aa5f4a01620d8fc28f36a48109255
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-e99925095-linux.amd64
+- caseVersions:
+  - 2.4.2
+  category: catalog
+  digest: sha256:e999250956a2f63865d9c8e1705f902aa472819ae4cea3e3ee3eb57e7c1783e9
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-e99925095
+- caseVersions:
+  - 2.5.0
+  category: catalog
+  digest: sha256:e3fb205ee18e68591b64d6d3737147c8335f0aa6d292a1ed4b07aa32e90ea0a9
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-6a020bd04-linux.amd64
+- caseVersions:
+  - 2.5.0
+  category: catalog
+  digest: sha256:6a020bd041bbd0f60ddefe5172b4720ac55fc95c67bc903cb7507616fc989488
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-6a020bd04
+- caseVersions:
+  - 2.5.1
+  category: catalog
+  digest: sha256:ac6d7105f08f38a9550d8613a6c1657f417ca0ebf624254a1a71a0fcb83eedbe
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-f2a9e89df-linux.amd64
+- caseVersions:
+  - 2.5.1
+  category: catalog
+  digest: sha256:f2a9e89df6ffc04f832b28a3a8b46ffdc7f0e4a6d6bfc9657ae1aae2cf25d247
+  image: cpopen/ibm-aiops-ir-core-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-f2a9e89df

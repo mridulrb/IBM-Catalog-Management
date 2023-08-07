@@ -1,0 +1,310 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 3.2.0
+  category: catalog
+  digest: sha256:1879e8b6b3edd410e8ce988ee8ba2885620850d799e03b03c93981947d85b1c5
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-1879e8b6b
+- caseVersions:
+  - 3.2.1
+  category: catalog
+  digest: sha256:4f595707a6d88a59662afcaf9633dc9f61c092a7bae0d5933d850dfedf2b1343
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-4f595707a
+- caseVersions:
+  - 3.3.0
+  category: catalog
+  digest: sha256:802a557b292f1bde5711c5249f1bffaaadb5e9366b07816ebff5e0f35fe02725
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-dae4b7b01-linux.amd64
+- caseVersions:
+  - 3.3.0
+  category: catalog
+  digest: sha256:dae4b7b016d26b1f5085c0cad816bd16a8d86a567577ac778b6106393e3e5ba7
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-dae4b7b01
+- caseVersions:
+  - 3.3.1
+  category: catalog
+  digest: sha256:faa6a6100710a38b052bede8d712647fefd8df2da2480b1babed7951a92f337c
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-57831a973-linux.amd64
+- caseVersions:
+  - 3.3.1
+  category: catalog
+  digest: sha256:57831a973eb8bbc7ec8aed72527ab9cf612a1880b30a78f9419fbacb2b89e5c4
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-57831a973
+- caseVersions:
+  - 3.3.2
+  category: catalog
+  digest: sha256:3a91f1fc252575e313fb23e8047019756380b2fa288275564fa76820acba85f1
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-620fad374-linux.amd64
+- caseVersions:
+  - 3.3.2
+  category: catalog
+  digest: sha256:620fad3740b7b1b2da16757824f821301ef2d377d975356f85279089ca09b75b
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-620fad374
+- caseVersions:
+  - 3.4.0
+  category: catalog
+  digest: sha256:8dfe64a7e1461987cf6445a786026a6f33e983577bc84a0fa21dfb62d5aefb60
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-27fb31bd3-linux.amd64
+- caseVersions:
+  - 3.4.0
+  category: catalog
+  digest: sha256:27fb31bd32786a593b62d144ce870d63b9615f4cd5533583e67a92ed80bacdb0
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-27fb31bd3
+- caseVersions:
+  - 3.4.1
+  category: catalog
+  digest: sha256:a6e5d7d7ad03ce1da2ff190be6cfea61eba3680521248f99e110f5f5c498133b
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-10c65ac4d-linux.amd64
+- caseVersions:
+  - 3.4.1
+  category: catalog
+  digest: sha256:10c65ac4dd30d5ae88fc695567bfe131c692d45e0a05174c30338792e254c79b
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-10c65ac4d
+- caseVersions:
+  - 3.4.2
+  category: catalog
+  digest: sha256:aec81aafff2279a2c287dc9a71f58f30027bd760c0dd420f8f00323c970f3eb8
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-76d989b6a-linux.amd64
+- caseVersions:
+  - 3.4.2
+  category: catalog
+  digest: sha256:76d989b6a358c4f3ab2b22275acbe6d3dd54c230e1188ced546c643acf3446ac
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-76d989b6a
+- caseVersions:
+  - 3.5.0
+  category: catalog
+  digest: sha256:c3081ac179d3e4651a4bdde5d9e5bae6729f6c89a182016b22b6c2cf12a8d8a5
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc4-20220915.1824-e8f519d5a-linux.amd64
+- caseVersions:
+  - 3.5.0
+  category: catalog
+  digest: sha256:e8f519d5a5401bcefbbd2aecfcf2df5954da55f3c9fe0b374c62aed48fee0fdd
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc4-20220915.1824-e8f519d5a
+- caseVersions:
+  - 3.5.1
+  category: catalog
+  digest: sha256:374dbba5b8940c94cb7dfc4147ba5351cd928dbb6b855ac1bf6e5422ea82c566
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-affb267f9-linux.amd64
+- caseVersions:
+  - 3.5.1
+  category: catalog
+  digest: sha256:affb267f905f9a4fddf2a8d3ab2f7534050a0de13f8086707a298da8146694ea
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-affb267f9
+- caseVersions:
+  - 3.6.0
+  category: catalog
+  digest: sha256:57559d0659e9cea8c5101678a02f40be521a9190fd5b91997f8fc74c95b1c5b1
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-8804e1531-linux.amd64
+- caseVersions:
+  - 3.6.0
+  category: catalog
+  digest: sha256:8804e1531704c0911f195e0239e3f3bb8c8c30ea06cfc3e60ab497963772e18c
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-8804e1531
+- caseVersions:
+  - 3.6.1
+  category: catalog
+  digest: sha256:753c7789f5b3f70d0e5290d28cf3c5a09c6c50269e917e37b79f78497904eaca
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-37c041a19-linux.amd64
+- caseVersions:
+  - 3.6.1
+  category: catalog
+  digest: sha256:37c041a197103c552961e751cb92da1afec14d80724ed4e0e6b0d6041c05837f
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-37c041a19
+- caseVersions:
+  - 3.6.2
+  category: catalog
+  digest: sha256:9372d05786d0fd1a4cd68d46e69b9ebd05ec159d8c46fe84f642d952693b5125
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-d630b5424-linux.amd64
+- caseVersions:
+  - 3.6.2
+  category: catalog
+  digest: sha256:d630b542430bca5b159271a9711d461036374da605f60f3273127189476140d7
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-d630b5424
+- caseVersions:
+  - 3.7.0
+  category: catalog
+  digest: sha256:42ce6c07c79d66e7fcfdb166211ef78230631827b514dde894e5499c6e10ecde
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-66623d6ec-linux.amd64
+- caseVersions:
+  - 3.7.0
+  category: catalog
+  digest: sha256:66623d6ec3bffa739ac6be05a328d327231bfdb77fc76ed81e1a2d70b67898bc
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-66623d6ec
+- caseVersions:
+  - 3.7.1
+  category: catalog
+  digest: sha256:1c3336537a58c3efc798c37643c964ee36b6b1e4b584b640b63e826e7bafce0f
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-6e4026db1-linux.amd64
+- caseVersions:
+  - 3.7.1
+  category: catalog
+  digest: sha256:6e4026db168825464fd1b3dc5aaf865d17596e9c03d7fc173848c786a5bdeb5c
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-6e4026db1
+- caseVersions:
+  - 3.7.2
+  category: catalog
+  digest: sha256:3fdaa68ce618bcdfca0b16a8b857adcf76c559b840500055dbe58fccf53a7c83
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-1b38f8ff3-linux.amd64
+- caseVersions:
+  - 3.7.2
+  category: catalog
+  digest: sha256:1b38f8ff38218c16c129daf7345ea83feb3e9540a3f613b521c87671df0c48a7
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-1b38f8ff3
+- caseVersions:
+  - 4.1.0
+  category: catalog
+  digest: sha256:b642786537524dc1313c5ad8409917aa607385753919ff2d43a10f88b91e9b96
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-f0bf25f2a-linux.amd64
+- caseVersions:
+  - 4.1.0
+  category: catalog
+  digest: sha256:f0bf25f2a8d53a99ccbccc5725fb153a8d49405ed7f37dc87a45a781c1055bf0
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-f0bf25f2a
+- caseVersions:
+  - 4.1.1
+  category: catalog
+  digest: sha256:c1d98a4c5f51200c8ab146d5fefee3d5c013a6e884e2d7981e7a0751e41dd53f
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-2e80e3455-linux.amd64
+- caseVersions:
+  - 4.1.1
+  category: catalog
+  digest: sha256:2e80e3455397e69e67c683fa207052a1df565b8670f8447a85ec7a3b62455937
+  image: cpopen/ibm-secure-tunnel-operator-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-2e80e3455

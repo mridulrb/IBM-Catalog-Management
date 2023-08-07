@@ -1,0 +1,7 @@
+registry,image_name,tag,digest,mtype,os,arch,variant,insecure,digest_source,image_type,groups
+icr.io,cpopen/ibm-management-ingress-operator,1.20.5,sha256:883fd39b4af3de5792a17363a07550b0a0b0e32c8f9eab1ccc33216d18f63d43,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/icp-management-ingress,2.6.13,sha256:d78cd7e6f55027e9b1969b904dc90f6c096a1c9f7fb959bf39177ab7885ec25c,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/ibm-ingress-nginx-operator,1.20.5,sha256:b37275e15de95a987d394499e7e29b4c2a0c5ad1fe34aca7c693aed4d034003f,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/nginx-ingress-controller,2.6.13,sha256:3920e1c308638ff11510b651bd30d3a525c04651ff6f367e2d2d96632d8f61f7,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/kubectl,2.6.13,sha256:076e7c8c73c1b38ea777c4951839f2ee90c4d5d0825a9a71ebb20a9adaece37d,LIST,"","","",0,CASE,"",""
+icr.io,cpopen/cpfs/default-http-backend,2.6.13,sha256:6e65541c69eb41a0f56913622047b4e97429a502531a1eaaae3937b5e84fc8cc,LIST,"","","",0,CASE,"",""

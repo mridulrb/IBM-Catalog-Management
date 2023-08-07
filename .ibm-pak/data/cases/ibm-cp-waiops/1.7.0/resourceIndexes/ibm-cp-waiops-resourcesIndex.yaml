@@ -1,0 +1,330 @@
+apiVersion: v1
+containerImages:
+- caseVersions:
+  - 1.0.0
+  category: catalog
+  digest: sha256:9e88c1a50a1f9e420a3d261d88d0e1a1e49cbafe043b3a80a7be7fb97879b9a5
+  image: cpopen/aiops-orchestrator-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: 3.1.0
+- caseVersions:
+  - 1.0.1
+  category: catalog
+  digest: sha256:83b4d174e1d85f93a55bff58e9915eecb9f3708e99b38f61c04a1f68bf9bffb9
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.1.1-20210724.0401-83b4d174e
+- caseVersions:
+  - 1.1.0
+  category: catalog
+  digest: sha256:c7497c06246109b34f9deea26614044becef5d114c8c18a4066ae6404a233b52
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.0-20211029.0822-c7497c062
+- caseVersions:
+  - 1.1.1
+  category: catalog
+  digest: sha256:ea8eae8138ecb8c86504cde632461032be554e79291d236fe27693235c376ffc
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: singleArch
+    os: linux
+  tag: v3.2.1-20220207.1001-ea8eae813
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:7ea2d63aac6cabe71624bf7989eb50c3cb0114768548c6a8c9d62825b27e4614
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.0-20220318.1607-bcc8a6aa2-linux.amd64
+- caseVersions:
+  - 1.2.0
+  category: catalog
+  digest: sha256:bcc8a6aa20358f03efefaf0ae2c52329fdce2b9ce0e8915fa31424b8cf8672b9
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.0-20220318.1607-bcc8a6aa2
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:d1d96bc2f45149603a4f5b9f7de6710ed16c94887f36d2f88ab3f6011ccd4f69
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.1-20220411.1001-e7affcb64-linux.amd64
+- caseVersions:
+  - 1.2.1
+  category: catalog
+  digest: sha256:e7affcb645bee82057cfa325c7adec526461de297a1ef5e5c55571219710fbc2
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.1-20220411.1001-e7affcb64
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:bcfbb0118639042dfcb006f8e2b3e84c85811824626e151bb3ba67da13a88984
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.3.2-20220511.0601-989201b4e-linux.amd64
+- caseVersions:
+  - 1.2.2
+  category: catalog
+  digest: sha256:989201b4e8fef5493ed7a0462647699fe5d68d38e652959843e4b00d521f031f
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.3.2-20220511.0601-989201b4e
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:6c10e87e44fdc9d1af04dd950a74474fba4671e659522f7acee12f867bde4e97
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.0-20220617.1434-c724f40ae-linux.amd64
+- caseVersions:
+  - 1.3.0
+  category: catalog
+  digest: sha256:c724f40aecab317f3b624090f4de5dcbf201ab2aaf226513de5f049901d30189
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.0-20220617.1434-c724f40ae
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:46e76bfd215cdf32a64b88b1e385bc36112ee0061f489384b67ca2476182bedc
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.1-20220715.0002-08b3362eb-linux.amd64
+- caseVersions:
+  - 1.3.1
+  category: catalog
+  digest: sha256:08b3362ebc29c619717e29d439b6ebbe22eaafe3ffb9b64dad1cdfa0f5c8aa48
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.1-20220715.0002-08b3362eb
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:b7c6ec70402553ac2411ca2f2a2eb4553d6db3cc6279ebd7948ae218d75138b9
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.4.2-rc1-20220822.0742-74f86f5c2-linux.amd64
+- caseVersions:
+  - 1.3.2
+  category: catalog
+  digest: sha256:74f86f5c273342e3c4354fe07cf385baf6e26a62b114e45393f6da3c1f4a015d
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.4.2-rc1-20220822.0742-74f86f5c2
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:392af4ab8bdcaaa335c0dacb2197320dcdafc0b856b57db0ce8edb61a58163fa
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.0-rc3-20220916.1531-b290d1148-linux.amd64
+- caseVersions:
+  - 1.4.0
+  category: catalog
+  digest: sha256:b290d114808e8deb569c602821e8215069ed386ea2d72f2ec3bc718d0f244bdc
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.0-rc3-20220916.1531-b290d1148
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:0eeb4f10c66ce78c2170c2428de83f9c1ff7ca7ac6d3383e56103ce5fbaa3dca
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.5.1-20221017.2202-558b92e35-linux.amd64
+- caseVersions:
+  - 1.4.1
+  category: catalog
+  digest: sha256:558b92e35d51573ae738c278cbca96e4e3932b4e2663015a619f56bcc6db37cd
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.5.1-20221017.2202-558b92e35
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:98a9006cda05e85e63defd4ca3edf419f7ab4241dc3cf4c45513bd15e840f070
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.0-20221130.0002-a117b9dc1-linux.amd64
+- caseVersions:
+  - 1.5.0
+  category: catalog
+  digest: sha256:a117b9dc1fa3e0361be926ebbc84652179a8a59fe352a88bc9f7fde6b7b13115
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.0-20221130.0002-a117b9dc1
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:e8dbf40072de440b020df4648afdf1e2d99e03c0e40b0d942597b112aa49f464
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.1-20230112.2202-3b3c84afa-linux.amd64
+- caseVersions:
+  - 1.5.1
+  category: catalog
+  digest: sha256:3b3c84afafe5738056b7df8eb2153a3d8a1173ffb84952e8a99ef84b12b8e8bc
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.1-20230112.2202-3b3c84afa
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:505c10f589c58e0cdc2cdba6234232106f3f602058777abd951ad02c140f4062
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.6.2-20230209.2202-9c89614e9-linux.amd64
+- caseVersions:
+  - 1.5.2
+  category: catalog
+  digest: sha256:9c89614e9299cc77bbe329504f7dc6e535442ae32796804925db2dad7269650a
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.6.2-20230209.2202-9c89614e9
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:05b83edb5bb1bf9ed6bc95b5f031916cde492401831608c881f257fd978f67db
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.0-20230315.1639-a8c966480-linux.amd64
+- caseVersions:
+  - 1.6.0
+  category: catalog
+  digest: sha256:a8c966480d65e33c01eea1b27dbac9899b4ec93d8f65888715ffc2bf7b9adfe9
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.0-20230315.1639-a8c966480
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:81f84dd60d4242466b4ae11a75bb9583fb99b86f3e3a783a8696de0a9c285c00
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.1-20230414.0006-ef6d8a0e7-linux.amd64
+- caseVersions:
+  - 1.6.1
+  category: catalog
+  digest: sha256:ef6d8a0e723c4aeb07a582d8944c8b268d750ccd16eed930a9a43194e051c59a
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.1-20230414.0006-ef6d8a0e7
+- caseVersions:
+  - 1.6.2
+  category: catalog
+  digest: sha256:590aad0ae888735f55827a4bb75b4411eba03053839d96a25f33caeceb76d5a3
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v3.7.2-20230519.0806-6293c6e2e-linux.amd64
+- caseVersions:
+  - 1.6.2
+  category: catalog
+  digest: sha256:6293c6e2e23ceb2ed00d528aea8288dc777dff9e73f973bb102eaf859fb95bc5
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v3.7.2-20230519.0806-6293c6e2e
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:9a7bd60c2d1a43aeb546dc0824072335ef57f8c43fc38bf09bd2f9b0415af53d
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.0-20230621.0047-566a8e48a-linux.amd64
+- caseVersions:
+  - 1.7.0
+  category: catalog
+  digest: sha256:566a8e48a22614ce4b7d39c38c1f63ce483630c834a0c0dd3e98e69143664e76
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.0-20230621.0047-566a8e48a
+- caseVersions:
+  - 1.7.1
+  category: catalog
+  digest: sha256:8a462b896f56dc9cdc96807cc9cd3cf7e9625a6a1dfec74cd277b970a41e3430
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    architecture: amd64
+    imagetype: manifestList
+    os: linux
+  tag: v4.1.1-20230716.2205-a6f0571cd-linux.amd64
+- caseVersions:
+  - 1.7.1
+  category: catalog
+  digest: sha256:a6f0571cde89d5a082643897bdb8806544974dd5ebf21063d1fbfb0cab697104
+  image: cpopen/ibm-cp-waiops-case-bundle-catalog
+  platform:
+    imagetype: manifestList
+  tag: v4.1.1-20230716.2205-a6f0571cd
